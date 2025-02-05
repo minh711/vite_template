@@ -1,3 +1,11 @@
+# 🪴 How to use this template
+
+Before starting, search for `vite-template` (`Ctrl` + `Shift` + `F`) then rename it with your project name.
+
+![image](https://github.com/user-attachments/assets/2bd5300b-42c4-4276-925f-f1783d8f056b)
+
+Then `npm i` as ussual.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
