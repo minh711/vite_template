@@ -1,10 +1,28 @@
-# 🪴 How to use this template
+# Vite template
+
+Made by [**minh711**](https://github.com/minh711) (can also be called [**dm711**](https://github.com/minh711)).
+
+## 🪴 How to use this template
 
 Before starting, search for `vite-template` (`Ctrl` + `Shift` + `F`) then rename it with your project name.
 
 ![image](https://github.com/user-attachments/assets/2bd5300b-42c4-4276-925f-f1783d8f056b)
 
 Then `npm i` as ussual.
+
+## 📚 Folder structure
+
+1. `api`: store connect API logic code.
+2. `assets`: build in, store assets.
+3. `components`: store global components for reuse.
+4. `constants`: store global constants.
+5. `hooks`: store customized hooks.
+6. `i18n`: for using translation if needed.
+7. `layouts`: store global layouts.
+8. `locales`: pair with `i18n` if used translation feature.
+9. `pages`: store all page.
+10. `routes`: store routes.
+11. `style`: store global `CSS` styles.
 
 # React + TypeScript + Vite
 
@@ -30,7 +48,7 @@ export default tseslint.config({
       tsconfigRootDir: import.meta.dirname,
     },
   },
-})
+});
 ```
 
 - Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
@@ -39,7 +57,7 @@ export default tseslint.config({
 
 ```js
 // eslint.config.js
-import react from 'eslint-plugin-react'
+import react from 'eslint-plugin-react';
 
 export default tseslint.config({
   // Set the react version
@@ -54,5 +72,5 @@ export default tseslint.config({
     ...react.configs.recommended.rules,
     ...react.configs['jsx-runtime'].rules,
   },
-})
+});
 ```
