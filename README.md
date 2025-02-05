@@ -1,4 +1,4 @@
-# Vite template
+# 🏗️ Vite template
 
 Made by [**minh711**](https://github.com/minh711) (can also be called [**dm711**](https://github.com/minh711)).
 
@@ -10,19 +10,59 @@ Before starting, search for `vite-template` (`Ctrl` + `Shift` + `F`) then rename
 
 Then `npm i` as ussual.
 
-## 📚 Folder structure
+## 📚 Folder Structure
 
-1. `api`: store connect API logic code.
-2. `assets`: build in, store assets.
-3. `components`: store global components for reuse.
-4. `constants`: store global constants.
-5. `hooks`: store customized hooks.
-6. `i18n`: for using translation if needed.
-7. `layouts`: store global layouts.
-8. `locales`: pair with `i18n` if used translation feature.
-9. `pages`: store all page.
-10. `routes`: store routes.
-11. `style`: store global `CSS` styles.
+1. **`api/`** – Handles API connection logic.
+2. **`assets/`** – Stores static assets (images, icons, etc.).
+3. **`components/`** – Contains reusable global components.
+4. **`constants/`** – Defines global constants for the project.
+5. **`hooks/`** – Stores custom React hooks for shared functionality.
+6. **`i18n/`** – Manages translation logic (if needed).
+7. **`layouts/`** – Contains global layout components.
+8. **`locales/`** – Holds translation files for `i18n` (if used).
+9. **`pages/`** – Stores all individual pages of the application.
+10. **`routes/`** – Defines application routes.
+11. **`style/`** – Contains global CSS styles.
+
+## 🚀 Run the project
+
+Don't forget to install packages first
+
+```bash
+npm i
+```
+
+Then, just run it 😌
+
+```bash
+npm run dev
+```
+
+You can change the running port via `.env`.
+
+## 🎨 What’s Included in This Template?
+
+1. **🔒 Authorization (Optional)**
+
+   - This template comes with a built-in authorization system.
+   - If you need authentication and role-based access, it’s ready to use.
+   - If you don’t need authorization, the template still works seamlessly without it.
+
+2. **🌍 Internationalization (i18n) Ready**
+
+   - `i18next` is set up for translations, making it easy to support multiple languages.
+   - Currently, it’s commented out, so you can enable it when needed.
+
+3. **🎨 Ant Design for UI Components**
+
+   - The template leverages **Ant Design** to speed up development with prebuilt UI components.
+   - It provides a clean and consistent design out of the box.
+
+4. **🎭 Global CSS Utilities**
+   - A set of common CSS utility classes is included for quick styling.
+   - Check `general.css` to see the available styles and how to use them.
+
+---
 
 # React + TypeScript + Vite
 
